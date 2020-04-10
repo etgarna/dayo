@@ -59,4 +59,7 @@ It aims to make development easier while reducing maintenance costs by avoiding 
   Get the full source code and change it however your business requires!
 </p>
 
+<h2>Prices</h2>
+<a target="_blank" href="http://www.dan1dan.co.il/dayo/views/price/pricing.php">Show Prices</a>
+
 <h2>Don't start from scratch, start from DAYO</h2>
