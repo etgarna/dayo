@@ -46,7 +46,7 @@ It aims to make development easier while reducing maintenance costs by avoiding 
 
 <p>
   <b>Advanced PHP Entity Framework Platform</b><br/>
-  Performing raw SQL queries
+  Performing raw SQL queries <a href="http://www.dan1dan.co.il/dayo/">EF documentaion</a>
 </p>
 
 <p>
