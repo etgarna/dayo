@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-filter-reverse-debug</title>
+  
+
+  <script src="../../../../scripts/angular-1.7.2/angular.js"></script>
+  <script src="../../../../scripts/angular-1.7.2/docs/examples/example-filter-reverse/script.js"></script>
+  
+
+  
+</head>
+<body ng-app="myReverseFilterApp">
+  <div ng-controller="MyController">
+  <input ng-model="greeting" type="text"><br>
+  No filter: {{greeting}}<br>
+  Reverse: {{greeting|reverse}}<br>
+  Reverse + uppercase: {{greeting|reverse:true}}<br>
+  Reverse, filtered in controller: {{filteredGreeting}}<br>
+</div>
+</body>
+</html>

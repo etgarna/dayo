@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-httpbackend-e2e-testing</title>
+  
+
+  <script src="../../../../scripts/angular-1.7.2/angular.min.js"></script>
+  <script src="../../../../scripts/angular-1.7.2/angular-mocks.js"></script>
+  <script src="../../../../scripts/angular-1.7.2/docs/examples/example-httpbackend-e2e-testing/app.js"></script>
+  <script src="../../../../scripts/angular-1.7.2/docs/examples/example-httpbackend-e2e-testing/e2e.js"></script>
+  
+
+  
+</head>
+<body ng-app="myAppE2E">
+  <div ng-controller="MainCtrl as $ctrl">
+<form name="newPhoneForm" ng-submit="$ctrl.addPhone($ctrl.newPhone)">
+  <input type="text" ng-model="$ctrl.newPhone.name">
+  <input type="submit" value="Add Phone">
+</form>
+<h1>Phones</h1>
+<ul>
+  <li ng-repeat="phone in $ctrl.phones">{{phone.name}}</li>
+</ul>
+</div>
+</body>
+</html>

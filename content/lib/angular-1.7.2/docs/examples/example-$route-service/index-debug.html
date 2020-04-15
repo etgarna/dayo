@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-$route-service-debug</title>
+  
+
+  <script src="../../../../scripts/angular-1.7.2/angular.js"></script>
+  <script src="../../../../scripts/angular-1.7.2/angular-route.js"></script>
+  <script src="../../../../scripts/angular-1.7.2/docs/examples/example-$route-service/script.js"></script>
+  
+
+  <script type="text/javascript">
+    angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  </script>
+</head>
+<body ng-app="ngRouteExample">
+  <div ng-controller="MainController">
+  Choose:
+  <a href="../../../../scripts/angular-1.7.2/docs/examples/example-$route-service/Book/Moby">Moby</a> |
+  <a href="../../../../scripts/angular-1.7.2/docs/examples/example-$route-service/Book/Moby/ch/1">Moby: Ch1</a> |
+  <a href="../../../../scripts/angular-1.7.2/docs/examples/example-$route-service/Book/Gatsby">Gatsby</a> |
+  <a href="../../../../scripts/angular-1.7.2/docs/examples/example-$route-service/Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
+  <a href="../../../../scripts/angular-1.7.2/docs/examples/example-$route-service/Book/Scarlet">Scarlet Letter</a><br/>
+
+  <div ng-view></div>
+
+  <hr />
+
+  <pre>$location.path() = {{$location.path()}}</pre>
+  <pre>$route.current.templateUrl = {{$route.current.templateUrl}}</pre>
+  <pre>$route.current.params = {{$route.current.params}}</pre>
+  <pre>$route.current.scope.name = {{$route.current.scope.name}}</pre>
+  <pre>$routeParams = {{$routeParams}}</pre>
+</div>
+</body>
+</html>
