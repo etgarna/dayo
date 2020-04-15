@@ -17,15 +17,10 @@ define('BASE_URL',$serverName);
 
 ////////////////////////////////////////////////////////////////////
 
-define('DB_USER', 'dayo');
-define('DB_PASS', 'quhHKYinr0q7XJTB');
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'demo');
-
-//define('DB_USER', 'dayo');
-//define('DB_PASS', 'c7v66kkd');
-//define('DB_HOST', '172.16.32.88');
-//define('DB_NAME', 'dayo');
+define('DB_USER', 'rXCKIJhcfH');
+define('DB_PASS', 'aqKNIsEoNC');
+define('DB_HOST', 'remotemysql.com');
+define('DB_NAME', 'rXCKIJhcfH');
 
 //////////////////////////////////////////////////////////////////////
 
