@@ -11,7 +11,7 @@ DAYO is an PHP / Angular.js application platform designed to simplify and shorte
 It aims to make development easier while reducing maintenance costs by avoiding boiler-plate code, reducing the time spent on repetitive tasks and applying best software design practices.
 
 <h2>Online Dayo Demo</h2>
-<a href="http://www.dan1dan.co.il/dayo/">Dayo platform demo</a>
+<a href="http://www.dan1dan.co.il/dayo/" target="_blank">Dayo platform demo</a>
 
 <h2>Key Features</h2>
 <p>
@@ -46,7 +46,7 @@ It aims to make development easier while reducing maintenance costs by avoiding 
 
 <p>
   <b>Advanced PHP Entity Framework Platform</b><br/>
-  Performing raw SQL queries <a href="http://www.dan1dan.co.il/dayo/">EF documentaion</a>
+  Performing raw SQL queries <a href="http://www.dan1dan.co.il/ef/" target="_blank">EF documentaion</a>
 </p>
 
 <p>
