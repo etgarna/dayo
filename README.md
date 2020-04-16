@@ -25,6 +25,11 @@ It aims to make development easier while reducing maintenance costs by avoiding 
 </p>
 
 <p>
+  <b>Advanced PHP Entity Framework Platform</b><br/>
+  Performing raw SQL queries <a href="http://www.dan1dan.co.il/ef/" target="_blank">EF documentaion</a>
+</p>
+
+<p>
    <b>Advanced Authentication & Authorization</b><br/>
    Many built-in & integrated login options.
 </p>
@@ -42,11 +47,6 @@ It aims to make development easier while reducing maintenance costs by avoiding 
 <p>
   <b>Advanced Multi Language System</b><br/>
   Multi language and translation system
-</p>
-
-<p>
-  <b>Advanced PHP Entity Framework Platform</b><br/>
-  Performing raw SQL queries <a href="http://www.dan1dan.co.il/ef/" target="_blank">EF documentaion</a>
 </p>
 
 <p>
